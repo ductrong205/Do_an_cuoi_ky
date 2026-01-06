@@ -398,17 +398,23 @@ namespace FashionShop.Presentation
             // ===== LOGIN CLICK =====
             btnLogin.Click += (s, e) =>
             {
-                // ví dụ kiểm tra rỗng
                 if (tbUser.ForeColor == Color.Gray || string.IsNullOrWhiteSpace(tbUser.Text) ||
                     tbPass.ForeColor == Color.Gray || string.IsNullOrWhiteSpace(tbPass.Text))
                 {
                     MessageBox.Show("Vui lòng nhập tài khoản và mật khẩu!");
-                    this.DialogResult = DialogResult.None; // quan trọng: không cho form đóng kiểu OK
                     return;
                 }
 
-                // TODO: check đăng nhập thật (AuthService)
-                // nếu đúng:
+                var auth = new AuthService();
+                var user = auth.Login(tbUser.Text.Trim(), tbPass.Text.Trim());
+
+                if (user == null)
+                {
+                    MessageBox.Show("Sai tài khoản hoặc mật khẩu!");
+                    return;
+                }
+
+                // ✅ Login thành công
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             };
@@ -477,3 +483,4 @@ namespace FashionShop.Presentation
         }
     }
 }
+
