@@ -9,11 +9,15 @@ namespace FashionShop.Business
         {
             using (var db = DbFactory.Create())
             {
-                var u = db.Users.FirstOrDefault(x => x.UserName == username && x.IsActive);
+                var u = db.Users
+                  .Include("Role")
+                  .FirstOrDefault(x =>
+                      x.UserName == username &&
+                      x.IsActive);
+
                 if (u == null) return null;
 
-                // Tạm thời so sánh plain cho dễ chạy
-                // Sau này mình đổi sang BCrypt.Verify
+                // tạm so sánh plain text
                 if (u.PasswordHash != password) return null;
 
                 return u;
@@ -21,3 +25,4 @@ namespace FashionShop.Business
         }
     }
 }
+
