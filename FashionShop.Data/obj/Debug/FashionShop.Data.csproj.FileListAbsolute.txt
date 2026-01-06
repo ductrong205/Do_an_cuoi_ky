@@ -1,0 +1,12 @@
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\bin\Debug\FashionShop.Data.dll.config
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\bin\Debug\FashionShop.Data.dll
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\bin\Debug\FashionShop.Data.pdb
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\bin\Debug\EntityFramework.dll
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\bin\Debug\EntityFramework.xml
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\obj\Debug\FashionShop.Data.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\obj\Debug\FashionShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\obj\Debug\FashionS.3AE514D7.Up2Date
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\obj\Debug\FashionShop.Data.dll
+C:\Users\admin\OneDrive\Tài liệu\Lập trình trên môi trường window\FashionShopManager\FashionShop.Data\obj\Debug\FashionShop.Data.pdb
