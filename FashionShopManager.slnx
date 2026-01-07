@@ -1,6 +1,0 @@
-<Solution>
-  <Project Path="FashionShop.Business/FashionShop.Business.csproj" Id="4538af01-3229-45be-9f92-3f913435f562" />
-  <Project Path="FashionShop.Data/FashionShop.Data.csproj" Id="bb51ed0c-a57f-4fd7-95d8-7608a8ab6dbc" />
-  <Project Path="FashionShop.Presentation/FashionShop.Presentation.csproj" Id="6ecd5679-a738-4b36-9ce3-44651eb2ac84" />
-  <Project Path="FashionShop.Shared/FashionShop.Shared.csproj" Id="d6acdede-96d6-4bf7-9c92-de6c9f801990" />
-</Solution>
